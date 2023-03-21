@@ -3,22 +3,22 @@
 
 /*[SECTION] Statements and Comment
 
-    statements 
-        - in programming are instructions 
+    statements
+        - in programming are instructions
         that we tell the computer to perform.
         - JS statements usally end with semi-colon
-    
+
     syntax
         - in programming, it is the set of rules that describes
         how statements constructed
-    
-    comments 
+
+    comments
         - are parts of the code that gets ignored by the language
 
 variables
      - it is used as a container of data
 
-Declaring Variables 
+Declaring Variables
     -syntax
         let/const variableName
 
@@ -47,13 +47,13 @@ console.log('hello');
     - variable names should be indicatve (or descriptive) of the value being stored to avoid confusions.
 */
 /* declaring and initializing variables
-    - initializing variables 
-        -the instance when a variable is given it's 
+    - initializing variables
+        -the instance when a variable is given it's
         initial/starting value
 
-        syntax: 
+        syntax:
             let/const variableName = value;
-            
+
             ex:
                 let age = 23;
 */
@@ -72,7 +72,7 @@ console.log(interest);
 
 //interest = 4.20;
 //console.log(interest)
-    
+
 /*
     Reassigning variable values
         - means changing it's or previous value into another value
@@ -111,10 +111,10 @@ const pi;
 pi = 3.1416;
 console.log(pi);
 
-// var vs let/const 
+// var vs let/const
 
 /*
-    var - is also used in declaring  a variable but var 
+    var - is also used in declaring  a variable but var
     is an ECMASCRIPT(ES1) featured in 1997.
 
     let/const was introduced as new feature in ES6(2015)
@@ -136,3 +136,9 @@ function()
 function2()
     var;
 
+let bestFinalFantasy;
+bestFinalFantasy = "Final Fantasy 6";
+console.log(bestFinalFantasy);
+
+bestFinalFantasy = "Final Fantasy 7"
+console.log(bestFinalFantasy);
